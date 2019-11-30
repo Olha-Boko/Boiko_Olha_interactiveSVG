@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Nov 29, 2019 at 04:13 PM
+-- Generation Time: Nov 30, 2019 at 02:33 AM
 -- Server version: 5.7.26
 -- PHP Version: 7.2.18
 
@@ -36,17 +36,21 @@ CREATE TABLE IF NOT EXISTS `tbl_cheese` (
   `EatWith` text NOT NULL,
   `DrinkWith` text NOT NULL,
   PRIMARY KEY (`ID`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=9 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `tbl_cheese`
 --
 
 INSERT INTO `tbl_cheese` (`ID`, `Name`, `Taste`, `EatWith`, `DrinkWith`) VALUES
-(1, 'Chedder', 'Mild-pungent, Soft and Smooth to Crumbly.', 'Oysters, Eggs, Walnuts, Salami, Apples.', 'Zinfandel, Cava, Merlot.'),
+(1, 'Cheddar', 'Mild-pungent, Soft and Smooth to Crumbly.', 'Oysters, Eggs, Walnuts, Salami, Apples.', 'Zinfandel, Cava, Merlot.'),
 (2, 'Parmesan', 'Mild and Strong, Hard, Crumbly, Granular.', 'Red meat, Potatoes, Walnuts, Tomatoes, Apricots.   ', 'Chardonnay, Sauvignon, Prosecco.'),
 (3, 'Swiss', 'Mild and Strong, Hard, Firm, Dense and Creamy.', 'Red meat, Potatoes, Pecans, Salami, Pears.', 'Pino Noir, Zweigelt, Gamay.'),
-(4, 'Gouda', 'Mild and Strong, Semi-hard to Hard, Firm.', 'Fish, White meat, Cashews, Raisins, Apples.', 'Sauvignon, Pino Gris, Riesling.');
+(4, 'Gouda', 'Mild and Strong, Semi-hard to Hard, Firm.', 'Fish, White meat, Cashews, Raisins, Apples.', 'Sauvignon, Pino Gris, Riesling.'),
+(5, 'Feta', 'Mild and Salty, Creamy to Crumbly.', 'Olives, Flatbread, Pine nuts, Tomatoes, Figs. ', 'Pino Noir, Zinfandel, Madeira.'),
+(6, 'Blue', 'Strong, Tangy, Semi-hard, Crumbly.', 'Red meat, Potatos, Walnuts, Desserts, Dates. ', 'Bordeaux, Merlot, Sherry, Port.'),
+(7, 'Mozzarella', 'Mild and Soft, Chewy,  Moist and Creamy.', 'Pasta, White meat, Pine nuts, Tomatoes, Grapes.', 'Champagne, Sauvignon, Riesling.'),
+(8, 'Bre', 'Mild, Soft, Creamy, Pungent.', 'Spicy food, Curries, Almonds, Desserts, Pears. ', 'Cabernet, Moscato, Riesling.');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
