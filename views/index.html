@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Chango&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+
+    <title>Cheese infographic</title>
+</head>
+<body>
+    <h1 class="main-header">GOURMET CHEESE</h1>
+    <h2 class="second-header">Delicious Combinations with Food and Wine</h2>
+    <main>
+        <!-- if we were using a framework, these might be 6-col or something-->
+      <div class="section">
+        <section id="cheese1">
+          <div class="label_wrapper">
+            <h1 class="hidden">Cheddar cheese</h1>
+            <object data="images/cheddar.svg" type="image/svg+xml" class="svg-graphic" id="cheese_cheddar"></object>
+            <span class="see-more" data-target="1">See the combination!</span>
+          </div>
+        </section>
+
+        <section id="cheese2">
+          <div class="label_wrapper">
+            <h1 class="hidden">Parmesan Cheese</h1>
+            <object data="images/parmesan.svg" type="image/svg+xml" class="svg-graphic" id="cheese_parmesan"></object>
+            <span class="see-more" data-target="2">See the combination!</span>
+          </div>
+        </section>
+
+        <section id="cheese3">
+          <div class="label_wrappe">
+            <h1 class="hidden">Swiss cheese</h1>
+            <object data="images/swiss.svg" type="image/svg+xml" class="svg-graphic" id="cheese_swiss"></object>
+            <span class="see-more" data-target="3">See the combination!</span>
+          </div>
+       </section>
+
+       <section id="cheese4">
+        <div class="label_wrapper">
+          <h1 class="hidden">Gouda cheese</h1>
+          <object data="images/gouda.svg" type="image/svg+xml" class="svg-graphic" id="cheese_gouda"></object>
+          <span class="see-more" data-target="4">See the combination!</span>
+        </div>
+        </section>
+      </div>
+
+      <section id="plate">
+        <object data="images/plate.svg" type="image/svg+xml" class="svg-plate" id="cheese_plate"></object>
+    </section>
+
+      <div class="section">
+        <section id="cheese5">
+          <div class="label_wrapper">
+            <h1 class="hidden">Feta cheese</h1>
+            <object data="images/feta.svg" type="image/svg+xml" class="svg-graphic" id="cheese_feta"></object>
+            <span class="see-more" data-target="5">See the combination!</span>
+          </div>
+        </section>
+
+        <section id="cheese6">
+          <div class="label_wrapper">
+            <h1 class="hidden">Blue Cheese</h1>
+            <object data="images/blue.svg" type="image/svg+xml" class="svg-graphic" id="cheese_blue"></object>
+            <span class="see-more" data-target="6">See the combination!</span>
+          </div>
+        </section>
+
+        <section id="cheese7">
+          <div class="label_wrappe">
+            <h1 class="hidden">Mozzarella cheese</h1>
+            <object data="images/mozz.svg" type="image/svg+xml" class="svg-graphic" id="cheese_mozzarella"></object>
+            <span class="see-more" data-target="7">See the combination!</span>
+          </div>
+       </section>
+
+       <section id="cheese8">
+        <div class="label_wrapper">
+          <h1 class="hidden">Bre cheese</h1>
+          <object data="images/bre.svg" type="image/svg+xml" class="svg-graphic" id="cheese_bre"></object>
+          <span class="see-more" data-target="8">See the combination!</span>
+        </div>
+        </section>
+      </div>
+      <article class="popover">
+          <h2 class="cheese-name"></h2>
+          <h3 class="taste-description">Taste:</h3>
+          <p class="eat-description">Eat With:</p>
+          <p class="drink-description">Drink With:</p>
+      </article>
+
+        <!-- <section class="buffer"></section> -->
+    </main>
+
+
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
